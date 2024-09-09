@@ -1,0 +1,157 @@
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 110px);
+    gap: 10px;
+}
+
+.score-text {
+    text-align: center;
+    font-size: 32px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    cursor: crosshair;
+}
+
+.goblin {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/goblin.png');
+    background-size: contain;
+}
+
+.search-task2 {
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+
+.task2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    width: 300px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+}
+
+.task-pinned,
+.task-all {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 0;
+    font-size: 24px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    padding: 5px 5px 5px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.task2-head {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.task-pinned-task,
+.task-all-task {
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.allow {
+    text-align: center;
+}
+
+.red-focus:focus,
+.red-focus {
+    border: 2px solid red;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-task-all,
+.no-task-pinned {
+    width: 250px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.search-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.search-image-text {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.search-image-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-image-input {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 200px;
+    height: 20px;
+}
+
+.search-image-btn {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.task3 {
+    margin-top: 20px;
+}
+
+.images {
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-name {
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}

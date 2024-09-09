@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="score-text">Score <span id="score">0</span></p>
+    <section class="container" id="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+
+    <section class="container">
+        <div class="task2" id="task2">
+            <label for="search">
+                <h3 class="task2-head">TOP Tasks</h3>
+                <input type="text" name="search" class="search-task2" id="search">
+            </label>
+            <div class="pinned">
+                <h3 class="task2-head">Pinned:</h3>
+                <div id="tasks-pinned-container">
+                    <p class="no-task-pinned" id="no-task-pinned">No pinned tasks</p>
+                </div>
+            </div>
+            <div class="all-tasks">
+                <h3 class="task2-head" id="all-tasks">All tasks:</h3>
+                <div id="all-tasks-container">
+                    <p class="no-task-all" id="no-task">No tasks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="task3">
+            <div class="search-image">
+                <label for="name-link" class="search-image-label">
+                    <p class="search-image-text">Название</p>
+                    <input type="text" name="name-link" class="search-image-input name">
+                </label>
+                <label for="link" class="search-image-label">
+                    <p class="search-image-text">Ссылка на изображение</p>
+                    <input type="text" name="link" class="search-image-input url">
+                </label>
+                <p class="uncorrect-url hidden">Неверный URL изображения</p>
+                <button type="button" class="search-image-btn">Добавить</button>
+            </div>
+            <div class="images">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
